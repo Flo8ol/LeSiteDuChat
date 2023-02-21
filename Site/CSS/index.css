@@ -1,0 +1,12 @@
+.accueil-droite{
+  background-color: gold;
+  font-size: 5em;
+  font-family: 'Rouge Script', cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:black;
+  gap:50px;
+}
+
+

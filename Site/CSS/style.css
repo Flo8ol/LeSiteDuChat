@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+}
+
+/* Bannière */
+
+
+/* Logo + Titre */
+
+.logo_titre{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color:white;
+}
+
+h1 {
+  font-size: 5em;
+  font-family: 'Rouge Script', cursive;
+}
+
+/* Navigation */
+
+nav {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+  padding-bottom: 50px;
+}
+
+.menu-nav{
+  padding: 20px;
+  background-color: #b5b6be;
+}
+
+nav a {
+  padding: 10px;
+  margin-left: 30px;
+  text-decoration: none;
+  color:white;
+}
+
+nav a:hover{
+  background-color: gold;
+  border: 1px solid white;
+  color:black;
+}
+
+/* Main */
+
+.menu-principal{
+  display: grid;
+  grid-template-columns: 30% 70%;
+  margin-left:50px;
+  margin-right:70px;
+  margin-top:100px;
+  margin-bottom:50px;
+  gap:20px;
+}
+
+/* Menu gauche */
+
+.menu-gauche{
+  color:white;
+  height:500px;
+  background-color: #696484;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  gap:50px;
+}
+
+h2 {
+  font-family: 'Rouge Script', cursive;
+  font-size:3em;
+}
+
+li {
+  font-size: 1.1em;
+  padding:20px;
+}
+
+.menu-gauche a {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.menu-gauche a:hover{
+  border: 1px solid white;
+}
+
+body {
+  background-color:black;
+}
+
+
+
+header,
+footer {
+  color:black;
+  background-color: white;
+  padding: 20px 50px;
+}
+
+footer{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}

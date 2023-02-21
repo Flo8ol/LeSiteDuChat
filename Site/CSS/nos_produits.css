@@ -1,0 +1,19 @@
+.accueil-droite {
+    background-color: gold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    gap: 20px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    font-size: 2em;
+    font-family: 'Rouge Script', cursive;
+    padding: 20px;
+}

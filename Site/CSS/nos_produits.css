@@ -17,3 +17,7 @@ td {
     font-family: 'Rouge Script', cursive;
     padding: 20px;
 }
+
+.les_images:hover{
+    opacity: 70%;
+}
